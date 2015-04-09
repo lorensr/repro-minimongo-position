@@ -1,0 +1,18 @@
+<head>
+  <title>push-blaze</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  {{#each list_items.list}}
+  <p>
+    Item: {{foo}}
+  </p>
+  {{/each}}
+</template>
